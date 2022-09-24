@@ -19,15 +19,15 @@ namespace Calculator
         static void Main(string[] args)
         {
             bool running = true;
-            ConsoleColor DefaultBackGroundColor = Console.BackgroundColor;
-            ConsoleColor DefaultForeGroundColor = Console.ForegroundColor;
+            ConsoleColor defaultBackGroundColor = Console.BackgroundColor;
+            ConsoleColor defaultForeGroundColor = Console.ForegroundColor;
 
 
             while (running)
             {
               
 
-                Calculator.function1();
+                Calculator.Function1();
 
 
                 string Typing = Console.ReadLine();
@@ -36,8 +36,8 @@ namespace Calculator
                 {
                     running = false;
                 }
-                Console.BackgroundColor = DefaultBackGroundColor;
-                Console.ForegroundColor = DefaultForeGroundColor;
+                Console.BackgroundColor = defaultBackGroundColor;
+                Console.ForegroundColor = defaultForeGroundColor;
             }
             
            
@@ -45,7 +45,7 @@ namespace Calculator
            
 
         }
-        static void function1()
+        static void Function1()
         {
            
             Console.WriteLine("Welcome to calculator App.");
