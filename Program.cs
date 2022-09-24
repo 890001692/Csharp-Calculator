@@ -143,6 +143,11 @@ namespace Calculator
             {
                 return ConsoleColor.DarkBlue;
             }
+            if (inputColorCaps == "PINK")
+
+            {
+                return ConsoleColor.Yellow;
+            }
             if (inputColorCaps == "DarkMagenta")
             {
                 return ConsoleColor.DarkMagenta;
